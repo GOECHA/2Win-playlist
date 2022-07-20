@@ -1,0 +1,47 @@
+* {
+    border: 1px solid blueviolet;
+  }
+body{
+    background-color: #EFEFEF;
+}
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Fonts~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+
+
+
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Color Palette~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+/* <color name="Outer Space Crayola" hex="1f363d" r="31" g="54" b="61" />
+<color name="Teal Blue" hex="40798c" r="64" g="121" b="140" />
+<color name="Green Sheen" hex="70a9a1" r="112" g="169" b="161" />
+<color name="Cambridge Blue" hex="9ec1a3" r="158" g="193" b="163" />
+<color name="Tea Green" hex="cfe0c3" r="207" g="224" b="195" /> */
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~TBD~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Sections~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+    .header-container {
+        display: grid;
+        grid-template-columns: .5fr .5fr 2fr .6fr;
+        grid-template-rows: 40px 90px;
+        background: #1f363d;
+    }
+
+    .title-container{
+        display: grid;
+        grid-template-columns: .20fr .80fr ; 
+        grid-template-rows: 100px 3px;
+        margin: 1em;
+        
+    } 
+
+
+  .icon-display{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 425px 425px 425px 425px ;
+    grid-gap: 10px;
+    margin: 1em
+  }
